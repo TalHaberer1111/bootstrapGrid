@@ -5,3 +5,25 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+img {
+  width: 75%;
+  height: auto;
+}
+.carousel {
+  height: 500px;
+  background-image: url("../images/space.jpg");
+}
+
+.carousel img {
+  width: 100%;
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::before, ::after {
+  border-sizing: border-box;
+}
